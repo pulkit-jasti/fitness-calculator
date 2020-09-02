@@ -64,10 +64,11 @@ main {
 
 		&:hover {
 			cursor: pointer;
+			transform: translateY(-5px);
 		}
 
 		&:active {
-			transform: scale(0.9, 0.9);
+			transform: scale(0.95, 0.95);
 			box-shadow: 20px 20px 40px rgba(0, 0, 0, 0.1);
 		}
 	}
@@ -82,10 +83,10 @@ main {
 		box-shadow: 30px 30px 30px rgba(0, 0, 0, 0.1);
 
 		.title {
-			margin-bottom: 20px;
+			margin-bottom: 30px;
 			text-align: center;
 			font-weight: 700;
-			font-size: 50px;
+			font-size: 37px;
 		}
 
 		.output-wrapper {

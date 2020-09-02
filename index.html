@@ -9,8 +9,26 @@
 	</head>
 
 	<body>
-		<main class="main-page"></main>
-		<section class="sample-page"></section>
+		<main class="main-page">
+			<div class="BMI">
+				<div class="title">BMI</div>
+				<div class="output-wrapper">
+					<input id="bmi-output" type="text" placeholder="Result" maxlength="10" />
+				</div>
+				<form id="bmi-form" action="">
+					<div class="form-contents">
+						<label for="height-feet">Feet</label>
+						<input id="bmi-height-feet" type="number" />
+						<label for="bmi-height-inches">Inches</label>
+						<input id="bmi-height-inches" type="number" />
+						<label for="bmi-weight">Weight (kg)</label>
+						<input id="bmi-weight" type="number" />
+					</div>
+
+					<button type="submit">Get Result</button>
+				</form>
+			</div>
+		</main>
 
 		<script src="script.js"></script>
 	</body>
